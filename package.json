@@ -1,0 +1,17 @@
+{
+  "name": "burp-mcp-server",
+  "version": "1.0.0",
+  "description": "Model Context Protocol server for Burp Suite integration",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["mcp", "burp-suite", "security", "vulnerability-scanner"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "axios": "^1.6.0"
+  }
+}

@@ -1,0 +1,28 @@
+{
+   "burp": {
+      "command": "node",
+      "args": [
+        "C:\\Repos\\burp-mcp-server\\index.js"
+      ],
+      "env": {
+        "BURP_URL": "http://127.0.0.1:1337"
+      },
+      "alwaysAllow": [
+        "burp_scan_url",
+        "burp_get_scan_status",
+        "burp_get_issues",
+        "burp_send_request",
+        "burp_test_connection",
+        "burp_repeater_send",
+        "burp_decoder_encode",
+        "burp_decoder_decode",
+        "burp_comparer_compare"
+      ],
+      "disabledTools": [],
+      "autoApprove": [
+        "burp_test_connection",
+        "burp_get_issues",
+        "burp_scan_url"
+      ]
+    }
+}
